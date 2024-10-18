@@ -17,8 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${recursive.className} bg-slate-950 flex flex-col h-full overflow-hidden`}>
-        <nav className="bg-[rgba(3,3,3,0.8)] backdrop-blur-sm shadow-md z-10 flex-shrink-0">
+      <body className={`${recursive.className} bg-slate-950 flex flex-col h-full`}>
+        <nav className="bg-[rgba(3,3,3,0.8)] backdrop-blur-sm shadow-md z-20 relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <ul className="flex justify-center space-x-4 py-4">
               <li className="font-cardo p-2 font-semibold text-gray-200 hover:bg-slate-800 rounded-lg transition duration-250 ease-in-out">
