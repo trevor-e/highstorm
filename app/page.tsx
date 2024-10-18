@@ -10,8 +10,9 @@ export default function Home() {
       {/* Main content */}
       <div className="relative w-[640px] h-[232px] p-8 border border-gray-700/20 bg-[rgba(3,3,3,1)] backdrop-blur-2xl backdrop-saturate-200 backdrop-opacity-80 dark:border-neutral-800 dark:bg-zinc-800/30 flex flex-col justify-center items-center">
         <div className="w-full max-w-[500px]">
-          <h1 className="text-3xl font-bold text-[rgba(253,253,253,1)] dark:text-gray-100 mb-4">
-            Highstorm Software
+          <h1 className="text-3xl font-bold text-[rgba(253,253,253,1)] dark:text-gray-100 mb-4 relative inline-block">
+            <span className="relative z-10">Highstorm Software</span>
+            <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-red-500"></span>
           </h1>
           <h2 className="text-xl font-medium text-[rgba(253,253,253,1)] dark:text-gray-100 mb-4">
             Crafting memorable native iOS and Android apps
