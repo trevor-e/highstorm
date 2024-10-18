@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="relative w-full h-screen flex items-center justify-center">
+    <div className="relative w-full h-screen flex items-center justify-center -mt-12">
       {/* Staggered background layers */}
       <div className="absolute w-[640px] h-[232px] bg-black transform translate-x-4 translate-y-4"></div>
       <div className="absolute w-[640px] h-[232px] bg-black transform -translate-x-4 -translate-y-4"></div>
